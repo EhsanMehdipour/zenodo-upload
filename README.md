@@ -9,6 +9,6 @@ Save this token as an environment variable called "ZENODO_TOKEN" in the system t
 
 **DOI_ID:** Create a repository in Zenodo and reserve a DOI. Use the DOI ID in the code as DOI_ID.
 
-## Executation
+## Run
 
 In the main.py code, change the DOI_ID and the list of files *filenames* to be uploaded to the Zenodo repository.
