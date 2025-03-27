@@ -8,3 +8,7 @@ Upload files directly to the Zenodo repository using the API
 Save this token as an environment variable called "ZENODO_TOKEN" in the system to be accessible by os.getenv("ZENODO_TOKEN").
 
 **DOI_ID:** Create a repository in Zenodo and reserve a DOI. Use the DOI ID in the code as DOI_ID.
+
+## Executation
+
+In the main.py code, change the DOI_ID and the list of files *filenames* to be uploaded to the Zenodo repository.
