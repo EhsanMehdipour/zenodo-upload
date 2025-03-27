@@ -12,7 +12,9 @@ def main():
 
     print(my_zenodo)
     my_zenodo.connect()
-    my_zenodo.upload_file('/path/to/the/file')
+    filenames = ['/path/to/the/file1','/path/to/the/file2']
+    for filename in filenames:
+        my_zenodo.upload_file(filename)
 
 if __name__ == "__main__":
     main()
