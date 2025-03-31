@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 from zenodoupload import ZenodoUpload
+from tqdm import tqdm
 
 def main():
     
@@ -23,7 +24,7 @@ def main():
     my_zenodo.connect()
     
     # Upload all the files in the list. 
-    for filename in filenames:
+    for filename in tqdm(filenames):
         my_zenodo.upload_file(filename)
 
 if __name__ == "__main__":
